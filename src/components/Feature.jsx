@@ -61,7 +61,7 @@ export function Features() {
             Ready to Gear Up?
           </h3>
           <p className="text-xl mb-8 text-[#f4ebd0]">
-        
+          Join thousands of professionals who trust Yard Dog Workwear for their workwear needs.
           </p>
           <button className="bg-[#b68d40] text-white hover:bg-[#d6ad60] px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
             Start Shopping
