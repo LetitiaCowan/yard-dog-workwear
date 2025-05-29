@@ -1,16 +1,14 @@
 import React from "react";
-import { Header } from "./components/Header.jsx";
-import { Hero } from "./components/Hero.jsx";
-import { ProductCategories } from "./components/ProductCategories.jsx";
 import { Footer } from "./components/Footer.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
+import { Nav } from "./components/Nav.jsx";
 
-export function App() {
+const App = () => {
   return (
     <Router>
-      <div className="w-full min-h-screen bg-white">
-        <Header />
+      <div className="w-full min-h-screen bg-white relative">
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
@@ -18,6 +16,6 @@ export function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

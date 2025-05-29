@@ -10,7 +10,7 @@ export function Hero() {
         />
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mt-10">
           <h1 className="text-4xl lg:text-6xl font-bold mb-6">
             Professional Workwear That Works As Hard As You Do
           </h1>

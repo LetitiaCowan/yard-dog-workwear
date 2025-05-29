@@ -1,7 +1,7 @@
-import React from 'react'
-import { Hero } from '../components/Hero'
-import ProductCategories from '../components/ProductCategories'
-import Features from '../components/Feature'
+import React from "react";
+import { Hero } from "../components/Hero";
+import { ProductCategories } from "../components/ProductCategories";
+import { Features } from "../components/Feature";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <ProductCategories />
       <Features />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
