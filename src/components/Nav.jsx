@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import Sidebar from "./Sidebar";
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [isOpen, setIsOpen] = useState(true);  
+  const [isOpen, setIsOpen] = useState(false);  
 
   const toggleSidebar = () => {
     setIsOpen(true)
