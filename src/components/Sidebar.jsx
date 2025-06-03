@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             </li>
             <li className='pt-4'>
               <h3 className='text-lg font-semibold text-gray-900 mb-3'>Categories</h3>
-              <ul className='space-y-3 pl-4'>
+              <ul className='space-y-3'>
                 <li>
                   <Link to="/category/shirts" className='flex items-center gap-3 text-gray-900 hover:text-[#b68d40] transition-colors'>
                     <FaTshirt className='text-xl' />
